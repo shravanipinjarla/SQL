@@ -1,15 +1,5 @@
-DROP SCHEMA IF EXISTS hospital_management CASCADE;
+DROP SCHEMA IF EXISTS hospital_management;
 CREATE SCHEMA IF NOT EXISTS hospital_management;
-
-DROP TABLE IF EXISTS online_retail_app.user_login;
-CREATE TABLE IF NOT EXISTS online_retail_app.user_login (
-	user_id TEXT PRIMARY KEY,
-    user_password TEXT,
-    first_name TEXT,
-	last_name TEXT,
-	sign_up_on DATE,
-	email_id TEXT
-);
 
 DROP TABLE IF EXISTS hospital_management.patient;
 CREATE TABLE IF NOT EXISTS hospital_management.patient (
